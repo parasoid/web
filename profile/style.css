@@ -222,7 +222,8 @@ header  {
         margin-bottom: 20px;
     }
 
-
+    .info-container    {
+        margin-right: 10px;
 
     .age-box    {
         width: 200px;
