@@ -69,13 +69,13 @@ header  {
 .svg-logo-white   {
     height: 25px;
     width: 25px;
-    background: url(../images/icon/icon-white.svg);
+    background: url(../web/images/icon/icon-white.svg);
 }
 
 .svg-logo-black  {
     height: 25px;
     width: 25px;
-    background: url(../images/icon/icon-black.svg);
+    background: url(../web/images/icon/icon-black.svg);
 }
 
 .info-container  {
