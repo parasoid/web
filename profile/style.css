@@ -1,0 +1,254 @@
+body    {
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Microsoft PhagsPa';
+    font-weight: 500;
+    color: white;
+}
+
+a   {
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0px;
+}
+
+.white-mode  {
+    background-color: whitesmoke;
+    color:black;
+}
+
+.white-img   {
+    color: aliceblue;
+} 
+
+.black-mode  {
+    background-color: black;
+}
+
+.container  {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header  {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(95, 94, 94);
+    padding-bottom: 5px;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+.white-logo {
+    display: inline;
+}
+
+.black-logo {
+    display: none;
+}
+
+.header-box     {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.thems  {
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border: 2px rgb(95, 94, 94) solid;
+    background-color: transparent ;
+    cursor: pointer;
+}
+
+.svg-logo-white   {
+    height: 25px;
+    width: 25px;
+    background: url(../images/icon/icon-white.svg);
+}
+
+.svg-logo-black  {
+    height: 25px;
+    width: 25px;
+    background: url(../images/icon/icon-black.svg);
+}
+
+.info-container  {
+    margin-top: 100px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    border: 1px rgb(95, 94, 94) solid;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.image-box  {
+    width: 250px;
+    height: 100%;
+    margin: 15px;
+    display: flex;
+}
+.image-box img  {
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+}
+
+.data-box   {
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.info-box   {
+    background-color: transparent;
+    width: 90%;
+    height: 70px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px rgb(95, 94, 94) solid;
+}
+
+.age-box    {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border: 1px rgb(95, 94, 94) solid;
+}
+
+.birthday-box   {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border: 1px rgb(95, 94, 94) solid;
+}
+
+.telegram-box    {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(47, 31, 190);
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.telegram-box:hover {
+    background-color: rgb(33, 22, 133);
+}
+
+.description-container    {
+    background-color: transparent;
+    width: 88%;
+    height: 170px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px rgb(95, 94, 94) solid;
+}
+
+.description-box    {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    word-break: break-all;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media  (max-width:768px)  {
+    .info-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .info-box   {
+        margin-bottom: 5px;
+    }
+
+    .info-container {
+        border: none;
+    }
+}
+
+@media  (max-width:620px)   {
+    .data-box   {
+        width: 100%;
+    }
+
+    .info-container {
+        border: none;
+    }
+}
+
+@media  (max-width:470px)   {
+    .info-box   {  
+        flex-direction: column;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .age-box    {
+        width: 200px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .birthday-box    {
+        width: 200px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .telegram-box    {
+        width: 200px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .info-container {
+        border: none;
+    }
+}
