@@ -49,6 +49,10 @@ header  {
     text-transform: uppercase;
 }
 
+svg.black-logo {
+    display: none;
+}
+
 .white-logo {
     display: inline;
 }
