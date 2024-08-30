@@ -1,0 +1,58 @@
+body.black * {
+    color: black;
+    transition: .2s;
+}
+
+.black  {
+    background-color: rgb(230, 234, 238);
+    color: black;
+}
+
+body.black header  {
+    background-color: rgb(230, 234, 238);
+    color: black;
+}
+
+body.black header .logo {
+    color: black;
+}
+
+body.black a
+body.black p 
+body.black h1
+body.black h2
+body.black h3
+body.black h4
+body.black h5
+body.black h6   {
+    color: black; 
+    transition: background-color .4s;
+}
+
+body.black .white-logo   {
+    display: none;
+}
+
+body.black .black-logo   {
+    display: inline;
+}
+
+body.black .about-content    {
+    color: black;
+}
+
+body    {
+    transition: background-color .2s;
+}
+
+body.black .telegram a {
+    color:aliceblue;
+}
+
+body.black .money-but   {
+    color: azure;
+}
+
+body.black .swiper  {
+    border: 2px solid rgb(95, 94, 94);
+}
